@@ -3,8 +3,11 @@
 ## Software Versions
 
 The following phpIPAM images were tested:
+
 `phpipam/phpipam-www:1.7x`
+
 `phpipam/phpipam-cron:1.7x`
+
 `nginx/1.27.2`
 
 
@@ -21,3 +24,8 @@ The following phpIPAM images were tested:
         ssl_certificate_key /etc/nginx/certs/phpipam.local.key;
 ```
 6. Follow the standard procedure to automatically install DB (require root password).
+
+## Links
+[phpipam-docker](https://github.com/phpipam-docker/phpipam-docker)
+[mariadb](https://hub.docker.com/_/mariadb)
+[installation](https://phpipam.net/phpipam-installation-on-centos-7/)
