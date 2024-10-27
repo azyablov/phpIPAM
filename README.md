@@ -26,6 +26,11 @@ The following phpIPAM images were tested:
 6. Follow the standard procedure to automatically install DB (require root password).
 
 ## Links
+
 [phpipam-docker](https://github.com/phpipam-docker/phpipam-docker)
+
 [mariadb](https://hub.docker.com/_/mariadb)
+
 [installation](https://phpipam.net/phpipam-installation-on-centos-7/)
+
+[original docker files](https://hub.docker.com/u/phpipam)
