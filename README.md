@@ -1,5 +1,9 @@
 # docker compose for phpIPAM
 
+## Intro
+
+Simple way to bring up your phpIPAM in the lab or small network using docker.
+
 ## Software Versions
 
 The following phpIPAM images were tested:
