@@ -2,11 +2,11 @@
 
 ## Intro
 
-Simple way to bring up your phpIPAM in the lab or small network using docker.
+The simple way to bring up your phpIPAM in the lab or small network using docker.
 
 ## Software Versions
 
-The following phpIPAM images were tested:
+The following phpIPAM/nginx images were tested:
 
 `phpipam/phpipam-www:1.7x`
 
