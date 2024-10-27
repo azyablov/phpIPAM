@@ -23,7 +23,7 @@ The following phpIPAM images were tested:
         ssl_certificate /etc/nginx/certs/phpipam.local.crt;
         ssl_certificate_key /etc/nginx/certs/phpipam.local.key;
 ```
-6. Create volumes and subnets:
+6. Create volumes and subnets (allows to get more control):
 ```sh
 docker network create phpipam
 docker volume create phpipam-db-data
