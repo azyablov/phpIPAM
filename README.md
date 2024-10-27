@@ -23,6 +23,13 @@ The following phpIPAM images were tested:
         ssl_certificate /etc/nginx/certs/phpipam.local.crt;
         ssl_certificate_key /etc/nginx/certs/phpipam.local.key;
 ```
+6. Create volumes and subnets:
+```sh
+docker network create phpipam
+docker volume create phpipam-db-data
+docker volume create phpipam-logo
+docker volume create phpipam-ca
+```
 6. Follow the standard procedure to automatically install DB (require root password).
 
 ## Links
